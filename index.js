@@ -3,7 +3,6 @@
 var server = require("./server");
 var router = require("./router");
 var requestHandlers = require("./requestHandlers");
-var makeTable = require("./makeTable");
 
 //creates a handle object, associative array notation
 var handle = {};

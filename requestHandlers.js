@@ -8,11 +8,9 @@ var fs = require("fs");
 //main menu
 function reqStart(response, postData){
 	console.log("Request handler start was called");
-	fs.readFile('index.html', function(err, data) {
-		response.writeHead(200, {"Content-Type": "text/html", "Content-Length": data.length});
-		response.write(data);
+		response.writeHead(200, {"Content-Type": "text/html"});
+		response.write("Welcome to Mario Kart!");
 		response.end();
-	})
 
 }
 
