@@ -8,13 +8,7 @@ var makeTable = require("./makeTable");
 //creates a handle object, associative array notation
 var handle = {};
 handle["/"] = requestHandlers.reqStart; //starts server when URL is accessed
-handle["/start"] = requestHandlers.reqStart; //starts server when url/start accessed
-handle["/upload"] = requestHandlers.reqUpload; //starts upload handler
-handle["/sameDegree"] = requestHandlers.reqSameDegree; //same degree handler
-handle["/addStudent"] = requestHandlers.reqAddStudent; //add student handler
-handle["/processAddStudent"] = requestHandlers.processAddStudent; //processes adding of students
-handle["/startUpload"] = requestHandlers.reqStartUpload; //presents form for upload from user
-handle["/show"] = requestHandlers.reqShow; //shows uploaded image after upload
+handle["/start"] = requestHandlers.reqStart; //starts server when url /start accessed
 
 
 //calls startServer function from server object
