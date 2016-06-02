@@ -57,3 +57,16 @@ th {
     background-color: #4CAF50;
     color: white;
 }
+
+p
+{
+	text-align: center;
+}
+
+a
+{
+	outline: black solid 1px;
+	padding: 10px;
+	background-color: #E0E0E0;
+	color: black;
+}
