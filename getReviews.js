@@ -2,7 +2,7 @@ var xslt4node = require('xslt4node');
 
 var http = require('http');
 var fs = require('fs');
-var EventEmitter = require('events').EventEmitter;
+
 
 function getReviews(response){
 

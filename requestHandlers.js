@@ -28,7 +28,7 @@ function reqReviews(response, postData){
 
 	setTimeout(function() {
 	  showPage("result", response);
-	}, 10000);
+	}, 12000);
 	
 	
 
