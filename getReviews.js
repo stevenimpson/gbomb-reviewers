@@ -40,9 +40,3 @@ file.on('close', function(){
     }
 })
 });
-
-// xslt4node.transform(config, function (err) {
-//     if (err) {
-//         console.log(err);
-//     }
-// });
